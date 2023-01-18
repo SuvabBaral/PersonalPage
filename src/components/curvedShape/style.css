@@ -1,0 +1,27 @@
+.curved-shape-container {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.curved-shape-parent {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.curved-shape-parent img {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 1110px) {
+    .curved-shape-parent {
+        display: flex;
+        align-items: flex-end;
+        /*height: 90px;*/
+    }
+}
+

@@ -1,0 +1,53 @@
+import React from "react";
+import Typical from "react-typical";
+import "./style.css";
+
+export default function Home() {
+	return (
+		<div className="home-container">
+			<div className="home-parent">
+				<div className="home-details">
+					<div className="home-details-name">
+						<span className="home-main-text">
+							Hello, I'm <span className="highlighted-text"> Suvab </span>
+						</span>
+					</div>
+					<div className="home-details-role">
+						{" "}
+						<h1>
+							<Typical
+								loop={Infinity}
+								steps={[
+									"Software Developer", 2000,
+									"Node.js | Express.js", 2000,
+									"React | Redux", 2000,
+									"Serverless | AWS", 2000,
+								]}
+							/>
+						</h1>
+					</div>
+					<div className="home-details-name">
+						<span className="home-brief-text">
+							Hit me up to collaborate on an interesting idea!
+						</span>
+					</div>
+					<div className="home-details-buttons">
+						<a href="Resume.pdf" download="Suvab's Resume.pdf">
+							<button className="btn primary-button">
+								{" "}
+								RESUME
+							</button>
+						</a>
+						<button className="btn primary-button">
+							{" "}
+							TEST
+						</button>
+					</div>
+				</div>
+				<div className="home-profile-picture">
+					<div className="home-profile-picture-background"></div>
+				</div>
+			</div>
+		</div>
+	)
+}

@@ -1,0 +1,134 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /*min-height: fit-content;*/
+    /*height: 10%;*/
+}
+
+.home-parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.home-details-name {
+    display: flex;
+    font-family: "Poppins Semi Bold";
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.highlighted-text {
+    color: var(--highlighted-text-color);
+    font-family: "Poppins Regular";
+    font-size: 30px;
+    padding: 2px;
+}
+
+.home-details-role {
+    display: flex;
+    margin: 10px 0 24px 0;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.home-details-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 14px;
+}
+
+.home-brief-text {
+    font-family: "Poppins Light Italic";
+    font-size: 16px;
+}
+
+.home-profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0 0px;
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 10px 0px 100px;
+}
+.home-profile-picture-background {
+    width: 92%;
+    height: 92%;
+    background: url("../../assets/pictures/profilePicture.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.home-profile-picture-background:hover {
+    transform: scale(1.10);
+    transition: .5s ease-out;
+}
+
+@media screen and (max-width: 1110px) { /* Ipad */
+    .home-profile-picture {
+        margin: 0 0px 0 80px;
+    }
+    .home-details-name {
+        font-size: 20px;
+    }
+    .home-details-role {
+        font-size: 14px;
+    }
+    .home-details-buttons {
+        padding-top: 12px;
+    }
+}
+
+@media screen and (max-width: 910px) { /*  */
+    .home-profile-picture {
+        height: 320px;
+        width: 320px;
+        margin: 0 0 0 4px;
+    }
+}
+
+@media screen and (max-width: 810px) { /*  */
+    .home-profile-picture {
+        margin: 0 !important;
+    }
+    .home-parent {
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+    .home-details {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        margin: 15px;
+    }
+    .highlighted-text {
+        font-size: 22px;
+    }
+    .home-details-name {
+        font-size: 18px;
+    }
+    .home-details-role {
+        font-size: 12px;
+    }
+    .home-brief-text {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .home-profile-picture {
+        height: 280px;
+        widgth: 280px;
+        margin-top: -50px;
+    }
+    .btn {
+        width: 100px;
+    }
+}

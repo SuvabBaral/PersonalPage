@@ -39,8 +39,7 @@ export default function Home() {
 							</button>
 						</a>
 						<button className="btn primary-button">
-							{" "}
-							TEST
+							Connect
 						</button>
 					</div>
 				</div>

@@ -1,0 +1,17 @@
+.profile-container-divider {
+    width: 100%;
+    margin-top: -65px;
+}
+
+.experience-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 10px 10px 10px;
+
+}
+
+@media screen and (max-width: 1110px) {
+    .profile-container-divider {
+        margin-top: 10px;
+    }
+}

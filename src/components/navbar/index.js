@@ -15,8 +15,8 @@ function Navbar() {
 				{/*	<h1> LOGO: </h1>*/}
 				{/*</div>*/}
 				<ul className= "navbar-links">
-					<li className="navbar-link">Home</li>
-					<li className="navbar-link">Resume</li>
+					<li className="navbar-link">Github</li>
+					<li className="navbar-link">LinkedIn</li>
 					<li className="navbar-link">Connect</li>
 				</ul>
 				<RxHamburgerMenu onClick={ displaySidebar } className="navbar-burgerIcon"/>

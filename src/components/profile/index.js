@@ -3,6 +3,12 @@ import "./style.css";
 import Home from "../home";
 import DottedLine from "../dottedLine";
 import ExperienceCard from "../experienceCard";
+import AchievementCard from "../achievementCard";
+import { BiMedal } from "react-icons/bi";
+import { IoMdSchool } from "react-icons/io";
+import { GiPodiumWinner} from "react-icons/gi";
+import { TbAward } from "react-icons/tb";
+
 
 const rentlyExperience = [
 	'Microservices | Serverless development.',
@@ -23,23 +29,53 @@ export default function Profile() {
 			<div className="profile-container-divider">
 				<DottedLine/>
 			</div>
-			<div className="experience-card-container">
-				<ExperienceCard
-					// title={"Rently"}
-					image={"rentlySmartHome"}
-					imageAlternateTxt={"Rently Smart Home"}
-					body={rentlyExperience}
-					companyUrl={"www.use.rently.com"}
-				/>
-				<ExperienceCard
-					// title={"Rently"}
-					image={"virtusa"}
-					imageAlternateTxt={"Virtusa"}
-					body={virtusaExperience}
-					companyUrl={"www.virtusa.com"}
-				/>
+			<div className="profile-experience-container">
+				<div className="experience-card-title-container">
+					<h2>Work Experience</h2>
+					<hr className="experience-card-title-underline"/>
+				</div>
+				<div className="experience-card-container">
+					<ExperienceCard
+						image={"rentlySmartHome"}
+						imageAlternateTxt={"Rently Smart Home"}
+						body={rentlyExperience}
+						companyUrl={"www.use.rently.com"}
+					/>
+					<ExperienceCard
+						image={"virtusa"}
+						imageAlternateTxt={"Virtusa"}
+						body={virtusaExperience}
+						companyUrl={"www.virtusa.com"}
+					/>
+				</div>
 			</div>
-
+			<div className="profile-experience-container-divider">
+				<DottedLine/>
+			</div>
+			<div className="profile-achievement-container">
+				<div className="profile-achievement-card-title-container">
+					<h2>Achievements</h2>
+					<hr className="profile-achievement-card-title-underline"/>
+				</div>
+				<div className="profile-achievement-card-container">
+					<AchievementCard
+						description={"Gold medallist for Bachelor of Computer Science and Engineering."}
+						icon={BiMedal}
+					/>
+					<AchievementCard
+						description={"Obtained full scholarship for Bachelor of Engineering from Embassy of India, Nepal."}
+						icon={IoMdSchool}
+					/>
+					<AchievementCard
+						description={"Highest grade point average for the 3rd year of undergraduate study."}
+						icon={GiPodiumWinner}
+					/>
+					<AchievementCard
+						description={"Undergraudate project awarded the best project in the department."}
+						icon={TbAward}
+					/>
+				</div>
+			</div>
 		</div>
 	)
 }

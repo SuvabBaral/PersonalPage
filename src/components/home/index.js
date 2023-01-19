@@ -18,10 +18,11 @@ export default function Home() {
 							<Typical
 								loop={Infinity}
 								steps={[
-									"Software Developer", 2000,
-									"Node.js | Express.js", 2000,
-									"React | Redux", 2000,
-									"Serverless | AWS", 2000,
+									"Software Developer", 1800,
+									"Node.js | Express.js", 1800,
+									"PSQL | DynamoDB", 1800,
+									"React | Redux", 1800,
+									"Serverless | AWS", 1800,
 								]}
 							/>
 						</h1>

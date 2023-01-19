@@ -3,7 +3,8 @@
     --hover_color: white;
     --text-color: #FFF9C2;
     --highlighted-text-color: #9CAF88;
-    --default-font: "Poppins Semi Bold"
+    --default-font: "Poppins Semi Bold";
+    --dark-text-color: #506369;
 }
 
 * {

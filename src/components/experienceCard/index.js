@@ -14,10 +14,6 @@ export default function ExperienceCard({ title, image, body, imageAlternateTxt, 
 				<div className="card-image-curved-shape">
 					<CurvedShape/>
 				</div>
-
-				<div className="card-title">
-					<h2>{title}</h2>
-				</div>
 				<div className="card-description">
 					{ workingSections }
 				</div>

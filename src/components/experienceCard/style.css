@@ -1,4 +1,6 @@
 .card-container {
+    display: flex;
+    flex-direction: column;
     width: 350px;
     overflow: hidden;
     box-shadow: 0px 0px 15px -5px;
@@ -32,6 +34,7 @@
 
 .card-description li {
     margin: 15px 10px 10px 10px;
+    padding: 0px 5px;
     font-family: "Poppins Regular";
     font-size: 15px;
 }
@@ -40,11 +43,35 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    bottom: 0px;
 }
 .card-link h3 {
     font-size: 15px;
     font-family: "Poppins Regular";
     color: blue;
     padding: 0 0 5px 0;
+    vertical-align: bottom;
+}
+
+@media screen and (max-width: 910px) { /*  */
+    .card-container {
+        width: 330px;
+    }
+    .card-container:hover {
+        transform: scale(1.03);
+    }
+    .card-description li {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .card-container {
+        width: 310px;
+    }
+    .card-container:hover {
+        transform: scale(1.015);
+    }
+    .card-description li {
+        font-size: 13px;
+    }
 }

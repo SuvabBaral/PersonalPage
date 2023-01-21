@@ -7,6 +7,7 @@
     border-radius: 40px;
     border-width: 2px;
     background-color: var(--text-color);
+    padding: 5px;
 }
 .achievement-card-body {
     display: flex;
@@ -55,6 +56,6 @@
         font-size: 10px;
     }
     .achievement-card-container {
-        width: 250px;
+        width: 220px;
     }
 }

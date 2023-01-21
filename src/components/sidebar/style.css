@@ -25,6 +25,15 @@
     color: var(--hover_color);
     transform: scale(1.15);
 }
+.sidebar__links a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+.sidebar-icon {
+    padding-top: 8px;
+    padding-right: 5px;
+    font-size: 18x;
+}
 .sidebar__cancel {
     padding-top: 15px;
     font-size: 25px;
@@ -45,5 +54,10 @@
 @media(min-width: 768px) {
     .sidebar {
         display: none;
+    }
+    .sidebar-icon {
+        padding-top: 8px;
+        padding-right: 5px;
+        font-size: 16px;
     }
 }

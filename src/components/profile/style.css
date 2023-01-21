@@ -59,6 +59,16 @@
     .profile-container-divider {
         margin-top: 10px;
     }
+    .profile-achievement-card-container {
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        justify-items: center;
+    }
+}
+@media screen and (max-width: 910px) {
+    .profile-container-divider {
+        margin-top: 10px;
+    }
 }
 @media screen and (max-width: 810px) {
     .experience-card-container {
@@ -70,7 +80,21 @@
     .experience-card-title-container h2 {
         font-size: 25px;
     }
+    .profile-achievement-card-title-container h2 {
+        font-size: 25px;
+    }
     .experience-card-title-container hr {
         width: 100px;
+    }
+    .profile-achievement-card-title-container hr{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profile-achievement-card-container {
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        justify-content: center;
     }
 }

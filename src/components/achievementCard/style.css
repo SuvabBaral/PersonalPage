@@ -32,6 +32,12 @@
     font-size: 12px;
     color: var(--dark-text-color);
 }
+@media screen and (max-width: 1110px) {
+    .achievement-card-container {
+        width: 320px;
+    }
+
+}
 
 @media screen and (max-width: 810px) {
     .achievement-card-container {
@@ -47,5 +53,8 @@
 @media screen and (max-width: 768px) {
     .achievement-card-description p{
         font-size: 10px;
+    }
+    .achievement-card-container {
+        width: 250px;
     }
 }

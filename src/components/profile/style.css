@@ -1,0 +1,100 @@
+.profile-container-divider {
+    width: 100%;
+    margin-top: -65px;
+}
+.profile-experience-container-divider {
+    padding: 15px;
+}
+
+.experience-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 10px 10px 10px;
+}
+.profile-achievement-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px 10px 10px 10px;
+}
+
+.experience-card-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px 30px 0px;
+}
+.profile-achievement-card-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px 30px 0px;
+}
+.experience-card-title-container h2 {
+    font-size: 30px;
+    color: var(--dark-text-color);
+    padding: 0px 5px 3px 0px;
+}
+.profile-achievement-card-title-container h2 {
+    font-size: 30px;
+    color: var(--dark-text-color);
+    padding: 0px 5px 3px 0px;
+}
+.experience-card-title-container hr {
+    width: 130px;
+    height: 2px;
+    background-color: var(--background_color);
+    border-width: 0px;
+}
+.profile-achievement-card-title-container hr {
+    width: 130px;
+    height: 2px;
+    background-color: var(--background_color);
+    border-width: 0px;
+}
+
+@media screen and (max-width: 1110px) {
+    .profile-container-divider {
+        margin-top: 10px;
+    }
+    .profile-achievement-card-container {
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        justify-items: center;
+    }
+}
+@media screen and (max-width: 910px) {
+    .profile-container-divider {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 810px) {
+    .experience-card-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0px 10px 0;
+    }
+    .experience-card-title-container h2 {
+        font-size: 25px;
+    }
+    .profile-achievement-card-title-container h2 {
+        font-size: 25px;
+    }
+    .experience-card-title-container hr {
+        width: 100px;
+    }
+    .profile-achievement-card-title-container hr{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profile-achievement-card-container {
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        justify-content: center;
+    }
+}

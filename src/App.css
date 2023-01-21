@@ -3,7 +3,8 @@
     --hover_color: white;
     --text-color: #FFF9C2;
     --highlighted-text-color: #9CAF88;
-    --default-font: "Poppins Semi Bold"
+    --default-font: "Poppins Semi Bold";
+    --dark-text-color: #506369;
 }
 
 * {
@@ -20,6 +21,7 @@ body {
     font-family: "Poppins Regular";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color: var(--dark-text-color)
 }
 
 @font-face {
@@ -62,11 +64,6 @@ body {
     background-color: var(--background_color);
     color: var(--text-color);
 }
-/* @media only screen and (max-width: 414px) {
-  .primary-btn {
-    font-size: 13px;
-  }
-} */
 
 .primary-button:hover {
     border: 2px solid var(--background_color);
@@ -74,25 +71,3 @@ body {
     background-color: var(--text-color);
     color: var(--background_color);
 }
-
-/*.highlighted-btn {*/
-/*    color: var(--white);*/
-
-/*    font-size: 12px;*/
-/*    background-color: #ff5823;*/
-/*}*/
-/*@media only screen and (max-width: 568px) {*/
-/*    .highlighted-btn {*/
-/*        z-index: -900;*/
-/*    }*/
-/*}*/
-
-/*.red-border {*/
-/*    border: 1px solid var(--error-message) !important;*/
-/*}*/
-
-/*.fade-in {*/
-/*    opacity: 0;*/
-/*    transform: translateY(80px);*/
-/*    transition: all 0.8s ease;*/
-/*}*/

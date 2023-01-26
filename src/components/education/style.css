@@ -65,7 +65,7 @@
     padding: 10px;
     margin-top: 10px;
     border-radius: 40px;
-    width: 103px;
+    width: 105px;
 }
 .education-list-item-year p {
     font-family: "Poppins Regular";
@@ -130,10 +130,13 @@
     .education-list-item-college-year-container {
         grid-template-columns: 3.3fr 0.7fr;
         margin-left: 5px;
-        margin-right: 10px;
+        margin-right: 8px;
+    }
+    .education-component-title-container {
+        margin: 20px 0px 25px 0px;
     }
     .education-list-item-college-year-container li {
-        font-size: 12.5px;
+        font-size: 12px;
         font-family: "Poppins Semi Bold";
     }
     .education-list-item-year p {

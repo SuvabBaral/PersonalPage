@@ -70,8 +70,21 @@
     }
     .card-container:hover {
         transform: scale(1.015);
+        transition: .2s ease-in;
     }
     .card-description li {
         font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-container {
+        width: 310px;
+    }
+    .card-container:hover {
+        transform: scale(1.01);
+    }
+    .card-description li {
+        font-size: 12px;
     }
 }

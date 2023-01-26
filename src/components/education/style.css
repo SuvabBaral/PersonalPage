@@ -1,0 +1,153 @@
+.education-component-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 15px 0px;
+    background-color: var(--background_color);
+}
+
+.education-component-curved-shape {
+    margin-top: -30px;
+    background-color: var(--background_color);;
+}
+.education-component-title-container h2 {
+    font-size: 30px;
+    color: var(--text-color);
+    padding: 15px 5px 3px 0px;
+}
+.education-component-title-container hr {
+    width: 130px;
+    height: 2px;
+    background-color: var(--text-color);
+    border-width: 0px;
+}
+.education-card-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 40px;
+    border-width: 2px;
+}
+.education-list-item-container {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: center;
+    padding: 5px
+}
+.education-list-item-college-year-container {
+    display: grid;
+    grid-template-columns: 3.5fr 0.8fr;
+    align-items: center;
+    padding-top: 15px;
+}
+.education-list-item-college-year-container a {
+    text-decoration: none;
+}
+.education-list-item-college-year-container a:hover {
+    transform: scale(1.01);
+    transition: 0.2s ease-out;
+}
+
+.education-list-item-college-year-container li {
+    font-family: "Poppins Regular";
+    font-size: 20px;
+    color: var(--background_color);
+    margin-left: 25px;
+}
+.education-list-item-year {
+    background-color: var(--background_color);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 40px;
+    width: 105px;
+}
+.education-list-item-year p {
+    font-family: "Poppins Regular";
+    color: var(--text-color);
+}
+.education-list-item-major {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+.education-list-item-major p {
+    font-family: "Poppins Regular";
+}
+
+@media screen and (max-width: 1110px) {
+    .education-list-item-college-year-container {
+        grid-template-columns: 3.3fr 0.7fr;
+    }
+    .education-list-item-college-year-container li {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 910px) {
+    .education-list-item-college-year-container a:hover {
+        transform: scale(1.01);
+        transition: 0.1s ease-in;
+    }
+    .education-list-item-college-year-container li {
+        font-size: 16px;
+    }
+    .education-list-item-year p {
+        font-size: 14px;
+    }
+    .education-list-item-major p {
+        font-size: 14px;
+    }
+    .education-list-item-year {
+        width: 95px;
+    }
+    .education-component-title-container h2 {
+        font-size: 25px;
+    }
+    .education-component-title-container hr {
+        width: 100px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .education-list-item-college-year-container li {
+        font-size: 13.5px;
+    }
+    .education-list-item-year p {
+        font-size: 12px;
+    }
+    .education-list-item-major p {
+        font-size: 12px;
+    }
+    .education-list-item-year {
+        width: 85px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .education-list-item-college-year-container {
+        grid-template-columns: 3.3fr 0.7fr;
+        margin-left: 5px;
+        margin-right: 8px;
+    }
+    .education-component-title-container {
+        margin: 20px 0px 25px 0px;
+    }
+    .education-list-item-college-year-container li {
+        font-size: 12px;
+        font-family: "Poppins Semi Bold";
+    }
+    .education-list-item-year p {
+        font-size: 9px;
+        font-family: "Poppins Semi Bold";
+    }
+    .education-list-item-major p {
+        font-size: 10.5px;
+        margin-top: 2px;
+    }
+    .education-list-item-year {
+        width: 70px;
+    }
+}

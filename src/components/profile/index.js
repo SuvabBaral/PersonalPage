@@ -8,6 +8,7 @@ import { BiMedal } from "react-icons/bi";
 import { IoMdSchool } from "react-icons/io";
 import { GiPodiumWinner} from "react-icons/gi";
 import { TbAward } from "react-icons/tb";
+import Education from "../education";
 
 
 const rentlyExperience = [
@@ -71,10 +72,13 @@ export default function Profile() {
 						icon={GiPodiumWinner}
 					/>
 					<AchievementCard
-						description={"Undergraudate project awarded the best project in the department."}
+						description={"Undergraduate project awarded the best project in the department."}
 						icon={TbAward}
 					/>
 				</div>
+			</div>
+			<div className="profile-education-container">
+				<Education/>
 			</div>
 		</div>
 	)

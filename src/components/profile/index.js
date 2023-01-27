@@ -1,14 +1,19 @@
 import React from "react";
 import "./style.css";
-import Home from "../home";
-import DottedLine from "../dottedLine";
-import ExperienceCard from "../experienceCard";
-import AchievementCard from "../achievementCard";
 import { BiMedal } from "react-icons/bi";
 import { IoMdSchool } from "react-icons/io";
 import { GiPodiumWinner} from "react-icons/gi";
 import { TbAward } from "react-icons/tb";
+import { useSelector } from "react-redux";
+
+import Home from "../home";
+import DottedLine from "../dottedLine";
+import ExperienceCard from "../experienceCard";
+import AchievementCard from "../achievementCard";
 import Education from "../education";
+import ComponentNavigation from "../componentNavigation";
+import CurvedShape from "../curvedShape";
+import MoreAboutMe from "../moreAboutMe";
 
 
 const rentlyExperience = [
@@ -77,9 +82,14 @@ export default function Profile() {
 					/>
 				</div>
 			</div>
-			<div className="profile-education-container">
-				<Education/>
+			<div className="profile-about-me-title">
+				<h2>More about me</h2>
+				<hr className="profile-about-me-title-underline"/>
 			</div>
+			<div className="profile-about-me-title-curved-shape">
+				<CurvedShape/>
+			</div>
+			<MoreAboutMe/>
 		</div>
 	)
 }

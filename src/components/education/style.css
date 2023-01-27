@@ -1,27 +1,3 @@
-.education-component-title-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0px 15px 0px;
-    background-color: var(--background_color);
-}
-
-.education-component-curved-shape {
-    margin-top: -30px;
-    background-color: var(--background_color);;
-}
-.education-component-title-container h2 {
-    font-size: 30px;
-    color: var(--text-color);
-    padding: 15px 5px 3px 0px;
-}
-.education-component-title-container hr {
-    width: 130px;
-    height: 2px;
-    background-color: var(--text-color);
-    border-width: 0px;
-}
 .education-card-container {
     display: flex;
     flex-direction: column;
@@ -51,7 +27,7 @@
 }
 .education-list-item-college-year-container a:hover {
     transform: scale(1.01);
-    transition: 0.2s ease-out;
+    transition: 0.16s ease-out;
 }
 
 .education-list-item-college-year-container li {
@@ -82,7 +58,7 @@
 
 @media screen and (max-width: 1110px) {
     .education-list-item-college-year-container {
-        grid-template-columns: 3.3fr 0.7fr;
+        grid-template-columns: 3.1fr 0.9fr;
     }
     .education-list-item-college-year-container li {
         font-size: 18px;
@@ -105,14 +81,8 @@
     .education-list-item-year {
         width: 95px;
     }
-    .education-component-title-container h2 {
-        font-size: 25px;
-    }
-    .education-component-title-container hr {
-        width: 100px;
-    }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
     .education-list-item-college-year-container li {
         font-size: 13.5px;
     }
@@ -120,34 +90,35 @@
         font-size: 12px;
     }
     .education-list-item-major p {
-        font-size: 12px;
+        font-size: 10.5px;
     }
     .education-list-item-year {
-        width: 85px;
+        width: 82px;
     }
 }
 @media screen and (max-width: 768px) {
-    .education-list-item-college-year-container {
-        grid-template-columns: 3.3fr 0.7fr;
-        margin-left: 5px;
-        margin-right: 8px;
+    .education-card-container {
+        margin-left: 8px;
+        width: 95%;
     }
-    .education-component-title-container {
-        margin: 20px 0px 25px 0px;
+    .education-list-item-college-year-container {
+        grid-template-columns: 3.1fr 0.9fr;
+        margin-left: 1px;
     }
     .education-list-item-college-year-container li {
-        font-size: 12px;
+        font-size: 11px;
         font-family: "Poppins Semi Bold";
     }
     .education-list-item-year p {
-        font-size: 9px;
+        font-size: 8px;
         font-family: "Poppins Semi Bold";
     }
     .education-list-item-major p {
-        font-size: 10.5px;
+        font-size: 10px;
         margin-top: 2px;
+        width: 200px;
     }
     .education-list-item-year {
-        width: 70px;
+        width: 62px;
     }
 }

@@ -55,6 +55,31 @@
     border-width: 0px;
 }
 
+.profile-about-me-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px 15px 0px;
+    background-color: var(--background_color);
+}
+.profile-about-me-title h2 {
+    font-size: 30px;
+    color: var(--text-color);
+    padding: 15px 5px 3px 0px;
+}
+.profile-about-me-title hr {
+    width: 130px;
+    height: 2px;
+    background-color: var(--text-color);
+    border-width: 0px;
+}
+.profile-about-me-title-curved-shape {
+    margin-top: -30px;
+    background-color: var(--background_color);;
+}
+
+
 @media screen and (max-width: 1110px) {
     .profile-container-divider {
         margin-top: 10px;
@@ -74,6 +99,12 @@
     }
     .profile-achievement-card-title-container h2 {
         font-size: 25px;
+    }
+    .profile-about-me-title h2 {
+        font-size: 25px;
+    }
+    .profile-about-me-title hr {
+        width: 100px;
     }
 }
 @media screen and (max-width: 810px) {
@@ -96,5 +127,8 @@
         display: grid;
         grid-template-columns: 3fr 3fr;
         justify-content: center;
+    }
+    .profile-about-me-title {
+        margin: 20px 0px 25px 0px;
     }
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import CurvedShape from "../curvedShape";
 
 function EducationListItem({ college, major, yearString, schoolUrl }) {
 	return (
@@ -21,13 +20,6 @@ function EducationListItem({ college, major, yearString, schoolUrl }) {
 export default function Education() {
 	return (
 		<div className="education-component-container">
-			<div className="education-component-title-container">
-				<h2>Education</h2>
-				<hr className="education-component-title-underline"/>
-			</div>
-			<div className="education-component-curved-shape">
-				<CurvedShape/>
-			</div>
 			<div className="education-card-container">
 				<EducationListItem
 					college="Sri Ramakrishna Engineering College (Anna University), India"

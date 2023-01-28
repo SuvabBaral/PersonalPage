@@ -1,0 +1,71 @@
+.componentNavigation_container {
+    display: flex;
+}
+.componentNavigation-item-container {
+    display: grid;
+}
+.componentNavigation-item {
+    margin: 20px;
+}
+.componentNavigation-button {
+    border: 2px solid linen;
+    font-size: 12px;
+    background-color: var(--background_color);
+    color: var(--text-color);
+    border-radius: 40px;
+    padding: 14px 0;
+    width: 120px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: "Poppins Semi Bold";
+}
+.componentNavigation-button:hover {
+    border: 2px solid var(--background_color);
+    transform: scale(1.10);
+    background-color: var(--text-color);
+    color: var(--background_color);
+}
+.componentNavigation-button:active, .componentNavigation-button:focus {
+    border: 2px solid var(--background_color);
+    background-color: var(--text-color);
+    color: var(--background_color);
+}
+.componentNavigation-vertical-line {
+    width: 2px;
+    background-color: var(--dark-text-color);
+    height: 30px;
+    align-items: center;
+    margin-left: 80px;
+}
+
+@media only screen and (max-width: 910px) {
+    .componentNavigation-button {
+        width: 110px;
+    }
+    .componentNavigation-vertical-line {
+        height: 25px;
+        margin-left: 70px;
+    }
+}
+@media only screen and (max-width: 810px) {
+    .componentNavigation-button {
+        width: 95px;
+        font-size: 11px;
+        padding: 10px;
+    }
+    .componentNavigation-vertical-line {
+        height: 18px;
+        margin-left: 55px;
+    }
+}
+@media only screen and (max-width: 810px) {
+    .componentNavigation-button {
+        width: 80px;
+        font-size: 10px;
+    }
+    .componentNavigation-vertical-line {
+        height: 15px;
+        margin-left: 60px;
+    }
+}
+

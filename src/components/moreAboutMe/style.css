@@ -1,0 +1,36 @@
+.profile-about-me-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.profile-navigationComponent-container {
+    flex: .4;
+    margin: 25px 0px 15px 0px;
+}
+.profile-education-container {
+    flex: 3;
+}
+.about-me-travel-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 10px;
+}
+
+@media screen and (max-width: 1110px) {
+    .profile-about-me-container {
+        justify-content: center;
+    }
+    .about-me-travel-container {
+        grid-template-columns: repeat(3, 250px);
+    }
+}
+@media screen and (max-width: 910px) {
+    .about-me-travel-container {
+        grid-template-columns: repeat(3, 200px);
+    }
+}
+@media screen and (max-width: 810px) {
+    .about-me-travel-container {
+        grid-template-columns: repeat(3, 150px);
+    }
+}

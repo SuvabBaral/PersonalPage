@@ -11,8 +11,8 @@ function Sidebar() {
 	return (
 		<div className = "sidebar" id = { sidebarState ? "show-sidebar" : "hide-sidebar" }>
 			<ul className= "sidebar__links">
-				<a href="https://github.com/SuvabBaral?tab=repositories" target="_blank"><li className="sidebar__link"><RxGithubLogo className="sidebar-icon" />Github</li></a>
-				<a href="https://np.linkedin.com/in/suvab-baral" target="_blank"><li className="sidebar__link"><RxLinkedinLogo className="sidebar-icon"/>LinkedIn</li></a>
+				<a href="https://github.com/SuvabBaral?tab=repositories" target="_blank"  rel="noreferrer"><li className="sidebar__link"><RxGithubLogo className="sidebar-icon" />Github</li></a>
+				<a href="https://np.linkedin.com/in/suvab-baral" target="_blank"  rel="noreferrer"><li className="sidebar__link"><RxLinkedinLogo className="sidebar-icon"/>LinkedIn</li></a>
 				<li className="sidebar__link"><RxEnvelopeClosed className="sidebar-icon"/>Connect</li>
 			</ul>
 			<div className = "sidebar__cancel">

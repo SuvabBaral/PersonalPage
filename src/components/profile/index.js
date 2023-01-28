@@ -4,14 +4,11 @@ import { BiMedal } from "react-icons/bi";
 import { IoMdSchool } from "react-icons/io";
 import { GiPodiumWinner} from "react-icons/gi";
 import { TbAward } from "react-icons/tb";
-import { useSelector } from "react-redux";
 
 import Home from "../home";
 import DottedLine from "../dottedLine";
 import ExperienceCard from "../experienceCard";
 import AchievementCard from "../achievementCard";
-import Education from "../education";
-import ComponentNavigation from "../componentNavigation";
 import CurvedShape from "../curvedShape";
 import MoreAboutMe from "../moreAboutMe";
 

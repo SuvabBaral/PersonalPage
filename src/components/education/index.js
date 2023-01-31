@@ -28,7 +28,7 @@ export default function Education() {
 					schoolUrl="https://www.srec.ac.in/"
 				/>
 				<EducationListItem
-					college="GEMS Institue of Higher Education, Nepal"
+					college="GEMS Institute of Higher Education, Nepal"
 					major="+2 Science"
 					yearString="2014-2016"
 					schoolUrl="https://www.gihe.edu.np/"

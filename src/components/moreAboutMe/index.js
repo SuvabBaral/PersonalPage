@@ -5,11 +5,15 @@ import Education from "../education";
 import { useSelector } from "react-redux";
 import TravelPops from "../travelPops";
 import PictureModal from "../pictureModal";
+import { useSpring, animated} from "react-spring";
 
 export default function MoreAboutMe() {
 	const showEducation = useSelector((state) => state.about.showEducation);
 	const showPicturesState = useSelector((state) => state.about.showPictures);
-	console.log(showPicturesState);
+	const props = useSpring({
+		from: { opacity: 0 },
+		to: { opacity: 1 },
+	})
 	// const showTravel = useSelector((state) => state.profile.showTravel);
 	return (
 	<div className="profile-about-me-container">
@@ -19,7 +23,7 @@ export default function MoreAboutMe() {
 		{
 			(showEducation) ?
 				(<div className="profile-education-container">
-					<Education/>
+					<animated.div style={props}/><Education/>
 				</div>) : (
 					<div className="about-me-travel-container">
 						<TravelPops

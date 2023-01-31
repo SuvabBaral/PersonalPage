@@ -50,7 +50,7 @@
     font-size: 24px;
 }
 .navbar-curved-shape {
-    margin: -25px
+    margin-top: -25px
 }
 
 @media(max-width: 1110px) {
@@ -67,6 +67,9 @@
     }
     .navbar-link {
         font-size: 16px;
+    }
+    .navbar-curved-shape {
+        margin-top: -10px
     }
 }
 

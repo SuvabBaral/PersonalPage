@@ -72,7 +72,7 @@ export default function PictureModal() {
 		<div className="picture-modal-container-background">
 			<div className="picture-modal-container">
 				<div className="picture-modal-picture">
-					<img src={images(`./${imageNames[activeIndex]}`)} alt="picture"/>
+					<img src={images(`./${imageNames[activeIndex]}`)} alt={`${destination} pictures`}/>
 				</div>
 				<div className="picture-modal-right-arrow" onClick={increaseIndex}>
 					<RiArrowRightSLine/>

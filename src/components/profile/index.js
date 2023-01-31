@@ -11,6 +11,7 @@ import ExperienceCard from "../experienceCard";
 import AchievementCard from "../achievementCard";
 import CurvedShape from "../curvedShape";
 import MoreAboutMe from "../moreAboutMe";
+import { ReactComponent as CodingSVG} from "../../assets/svg/Coding.svg";
 
 
 const rentlyExperience = [
@@ -44,6 +45,7 @@ export default function Profile() {
 						body={rentlyExperience}
 						companyUrl={"www.use.rently.com"}
 					/>
+					<CodingSVG height={230} width={200}/>
 					<ExperienceCard
 						image={"virtusa"}
 						imageAlternateTxt={"Virtusa"}

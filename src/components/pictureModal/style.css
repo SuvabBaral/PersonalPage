@@ -5,15 +5,15 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(200, 200, 200, 0.75);
+    background-color: rgba(200, 200, 200, 0.90);
     position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .picture-modal-container {
-    width: 700px;
-    height: 580px;
+    max-width: 700px;
+    height: 550px;
     border-radius: 25px;
     background-color: var(--text-color);
     box-shadow: 0px 0px 15px -5px;
@@ -62,29 +62,43 @@
     right: 70px;
     cursor: pointer;
 }
+.picture-modal-description {
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    font-size: 15px;
+    color: white;
+    padding: 15px 10px 10px 10px;
+}
+.picture-modal-description h2 {
+    font-family: "Poppins Light Italic";
+}
 
 @media screen and (max-width: 1110px) {
     .picture-modal-container {
-        width: 580px;
+        max-width: 620px;
         height: 480px;
     }
 }
 @media screen and (max-width: 910px) {
     .picture-modal-container {
-        width: 480px;
-        height: 380px;
+        max-width: 580px;
+        height: 450px;
+    }
+    .picture-modal-description {
+        font-size: 13px;
     }
 }
 @media screen and (max-width: 810px) {
     .picture-modal-container {
-        width: 400px;
-        height: 320px;
+        width: 520px;
+        height: 420px;
     }
 }
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 720px) {
     .picture-modal-container {
-        width: 320px;
-        height: 250px;
+        max-width: 480px;
+        height: 380px;
     }
     .picture-modal-right-arrow {
         right: 8px;

@@ -6,20 +6,45 @@ import {RiArrowRightSLine, RiArrowLeftSLine } from "react-icons/ri";
 import {RxCross2} from "react-icons/rx";
 
 const BALI_IMAGES_NAME = [
-	'BaliGate2.jpeg', 'BaliGate.jpeg', 'BaliResort.jpeg', 'FinnsClub.jpeg', 'ulluwatu.jpeg', "Temple.jpeg",
+	{ picture: 'Bali.jpg', text: "" },
+	{ picture: "BaliGate.jpg", text: "Lempuyang" },
+	{ picture: "Bali2.jpg", text: "" },
+	{ picture: "Finns.jpg", text: "Finns Beach Club" },
+	{ picture: "Legion.jpg", text: "" },
+	{ picture: "Uluwatu.jpg", text: "Uluwatu"},
 ];
 const ELNIDO_IMAGES_NAME = [
-	'ElNido1.jpeg', 'ElNido2.jpeg', 'ElNido3.jpeg', 'ElNido4.jpeg', 'LittleVenis.jpeg',
+	{ picture: 'Pappaya Beach.jpg', text: "Pappaya Beach" },
+	{ picture: 'Pappaya2.jpg', text: "" },
+	{ picture: 'wayToSLagoon.jpg', text: "Way to Secret Lagoon" },
+	{ picture: 'SecreetLagoonFam.jpg', text: "Secret Lagoon" },
+	{ picture: "LasCabanas.jpg", text: "Las Cabanas" },
+	{ picture: "LasCabanas2.jpg", text: "" },
+	{ picture: "LittleVenice.jpg", text: "Little Venis Manila" },
 ];
 const GOA_IMAGES_NAME = [
-	'Calungute.jpeg', 'Lighthouse.jpeg', 'Vagator.jpeg',
+	{ picture: "Calungute.jpeg", text: "Calungute" },
+	{ picture: "Lighthouse.jpeg", text: "Aguada Lighthouse" },
+	{ picture: "Vagator.jpeg", text: "Vagator Beach" },
+	{ picture: "Vagator2.jpeg", text: "" },
+	{ picture: "Anjuna.jpeg", text: "Anjuna Beach" },
 ];
 const KL_IMAGES_NAME = [
-	'TwinTower.jpeg', 'TTInside.jpeg', 'Memorial.jpeg', "BukitBintang2.jpeg", "BukitBintang.jpeg",
+	{ picture: "TwinTower.jpg", text: "Twin Tower" },
+	{ picture: "Petronas.jpg", text: "Petronas Shopping Center" },
+	{ picture: "Memorial.jpg", text: "National Monument" },
+	{ picture: "BukitBintang.jpg", text: "Bukit Bintang" },
+	{ picture: "BatuCave.jpg", text: "Batu Caves" },
 ];
 const MARDI_IMAGES_NAME = [
-	"Trial.jpeg", "Trial2.jpeg", "Trial3.jpeg", "Trial4.jpeg", "Dhaulagiri.jpeg",
-	"Aboveclouds.jpeg", "Machhapuchre.jpeg", "NightView.jpeg",
+	{ picture: "Trial.jpeg", text: "Forest Camp Trial" },
+	{ picture: "Dhaulagiri.jpeg", text: "Deurali" },
+	{ picture: "Trial3.jpeg", text: "Badal Dada Trial" },
+	{ picture: "Trial4.jpeg", text: "Badal Dada Trial" },
+	{ picture: "Aboveclouds.jpeg", text: "Badal Dada" },
+	{ picture: "Trial2.jpeg", text: "High Camp Trial" },
+	{ picture: "Machhapuchre.jpeg", text: "Mardi View Point" },
+	{ picture: "NightView.jpeg", text: "Midnight view from High Camp" },
 ];
 
 
@@ -54,7 +79,7 @@ export default function PictureModal() {
 
 	const updatePictureIndex = (index) => {
 		if (index >= imageNames.length) index = 0;
-		else if (index < 0) index = 0;
+		else if (index < 0) index = imageNames.length - 1;
 
 		setActiveIndex(index);
 	};
@@ -72,8 +97,12 @@ export default function PictureModal() {
 		<div className="picture-modal-container-background">
 			<div className="picture-modal-container">
 				<div className="picture-modal-picture">
-					<img src={images(`./${imageNames[activeIndex]}`)} alt={`${destination} pictures`}/>
+					<div className="picture-modal-description">
+						<h2>{imageNames[activeIndex].text}</h2>
+					</div>
+					<img src={images(`./${imageNames[activeIndex].picture}`)} alt={`${destination} pictures`}/>
 				</div>
+
 				<div className="picture-modal-right-arrow" onClick={increaseIndex}>
 					<RiArrowRightSLine/>
 				</div>

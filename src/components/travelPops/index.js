@@ -6,7 +6,6 @@ import {showPictures} from "../../store/actions/aboutActions";
 export default function TravelPops({ thumbnailImage, text, destination }) {
 	const dispatch = useDispatch();
 	const displayPictures = () => {
-		console.log('clicked displaYPictures');
 		dispatch(showPictures({ destination }));
 	}
 	return (

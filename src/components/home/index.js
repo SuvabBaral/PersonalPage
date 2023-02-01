@@ -3,6 +3,12 @@ import Typical from "react-typical";
 import "./style.css";
 
 export default function Home() {
+	const scrollToView = () => {
+		const contactMe = document.getElementById("contact-me-container");
+		if (contactMe) {
+			contactMe.scrollIntoView({ behavior: "smooth" });
+		}
+	};
 	return (
 		<div className="home-container">
 			<div className="home-parent">
@@ -40,7 +46,7 @@ export default function Home() {
 							</button>
 						</a>
 						<button className="btn primary-button">
-							Connect
+							<a onClick={scrollToView}>Connect</a>
 						</button>
 					</div>
 				</div>

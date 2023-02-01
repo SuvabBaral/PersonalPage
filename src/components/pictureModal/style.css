@@ -1,0 +1,111 @@
+.picture-modal-container-background {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(200, 200, 200, 0.90);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture-modal-container {
+    max-width: 700px;
+    height: 550px;
+    border-radius: 25px;
+    background-color: var(--text-color);
+    box-shadow: 0px 0px 15px -5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.picture-modal-picture {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.picture-modal-picture img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    border-width: 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.picture-modal-left-arrow, .picture-modal-right-arrow {
+    position: absolute;
+    color: var(--dark-text-color);
+    font-size: 80px;
+    cursor: pointer;
+}
+.picture-modal-right-arrow {
+    right: 45px;
+}
+.picture-modal-left-arrow {
+    left: 45px;
+}
+.picture-modal-right-arrow:hover, .picture-modal-left-arrow:hover, .picture-modal-close-button:hover {
+    transform: scale(1.10);
+    transition: 0.2s ease-out;
+}
+.picture-modal-close-button {
+    position: absolute;
+    font-size: 40px;
+    top: 20px;
+    right: 70px;
+    cursor: pointer;
+}
+.picture-modal-description {
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    font-size: 15px;
+    color: white;
+    padding: 15px 10px 10px 10px;
+}
+.picture-modal-description h2 {
+    font-family: "Poppins Light Italic";
+}
+
+@media screen and (max-width: 1110px) {
+    .picture-modal-container {
+        max-width: 620px;
+        height: 480px;
+    }
+}
+@media screen and (max-width: 910px) {
+    .picture-modal-container {
+        max-width: 580px;
+        height: 450px;
+    }
+    .picture-modal-description {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 810px) {
+    .picture-modal-container {
+        width: 520px;
+        height: 420px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .picture-modal-container {
+        max-width: 480px;
+        height: 380px;
+    }
+    .picture-modal-right-arrow {
+        right: 8px;
+    }
+    .picture-modal-left-arrow {
+        left: 8px;
+    }
+}
+
+

@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { useDispatch } from "react-redux";
-import { showTravel, showEducation } from "../../store/actions/profileAction";
+import { showTravel, showEducation } from "../../store/actions/aboutActions";
 
 export default function ComponentNavigation() {
 	const dispatch = useDispatch();

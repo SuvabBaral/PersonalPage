@@ -4,16 +4,14 @@ import { BiMedal } from "react-icons/bi";
 import { IoMdSchool } from "react-icons/io";
 import { GiPodiumWinner} from "react-icons/gi";
 import { TbAward } from "react-icons/tb";
-import { useSelector } from "react-redux";
 
 import Home from "../home";
 import DottedLine from "../dottedLine";
 import ExperienceCard from "../experienceCard";
 import AchievementCard from "../achievementCard";
-import Education from "../education";
-import ComponentNavigation from "../componentNavigation";
 import CurvedShape from "../curvedShape";
 import MoreAboutMe from "../moreAboutMe";
+import { ReactComponent as CodingSVG} from "../../assets/svg/Coding.svg";
 
 
 const rentlyExperience = [
@@ -47,6 +45,7 @@ export default function Profile() {
 						body={rentlyExperience}
 						companyUrl={"www.use.rently.com"}
 					/>
+					<CodingSVG height={230} width={200}/>
 					<ExperienceCard
 						image={"virtusa"}
 						imageAlternateTxt={"Virtusa"}

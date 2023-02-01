@@ -19,7 +19,7 @@ export default function ExperienceCard({ title, image, body, imageAlternateTxt, 
 				</div>
 			</div>
 			<div className="card-link">
-				<a href={`https://${companyUrl}`}><h3>{companyUrl}</h3></a>
+				<a href={`https://${companyUrl}`} target="_blank" rel="noreferrer"><h3>{companyUrl}</h3></a>
 			</div>
 
 		</div>

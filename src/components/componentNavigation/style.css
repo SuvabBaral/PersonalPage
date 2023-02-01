@@ -68,4 +68,18 @@
         margin-left: 60px;
     }
 }
+@media only screen and (max-width: 420px) {
+    .componentNavigation-button {
+        width: 65px;
+        font-size: 9px;
+        padding: 8px;
+    }
+    .componentNavigation-vertical-line {
+        height: 25px;
+        margin-left: 40px;
+    }
+    .componentNavigation-item {
+        margin: 10px;
+    }
+}
 

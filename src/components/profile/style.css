@@ -132,3 +132,10 @@
         margin: 20px 0px 25px 0px;
     }
 }
+@media screen and (max-width: 420px) {
+    .profile-achievement-card-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+}

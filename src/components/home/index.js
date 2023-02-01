@@ -24,6 +24,7 @@ export default function Home() {
 							<Typical
 								loop={Infinity}
 								steps={[
+									"Computer Engineer", 1800,
 									"Software Developer", 1800,
 									"Node.js | Express.js", 1800,
 									"PSQL | DynamoDB", 1800,
@@ -45,9 +46,11 @@ export default function Home() {
 								RESUME
 							</button>
 						</a>
+						<a onClick={scrollToView}>
 						<button className="btn primary-button">
-							<a onClick={scrollToView}>Connect</a>
+							Connect
 						</button>
+						</a>
 					</div>
 				</div>
 				<div className="home-profile-picture">

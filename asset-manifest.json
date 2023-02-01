@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PersonalPage/static/css/main.516f1b3d.css",
-    "main.js": "/PersonalPage/static/js/main.3ca906bc.js",
+    "main.css": "/PersonalPage/static/css/main.5927067d.css",
+    "main.js": "/PersonalPage/static/js/main.fee6a322.js",
     "static/media/wayToSLagoon.jpg": "/PersonalPage/static/media/wayToSLagoon.4ef38fdf567e2e0e4c03.jpg",
     "static/media/Trial.jpeg": "/PersonalPage/static/media/Trial.5d9ada9488be4fafb8bb.jpeg",
     "static/media/TwinTower.jpg": "/PersonalPage/static/media/TwinTower.2cbe308d2f7967bbc141.jpg",
@@ -44,11 +44,11 @@
     "static/media/ContactMeSVG.svg": "/PersonalPage/static/media/ContactMeSVG.d7d6bfe225a15d6e3e20e1bcd4b1ecaf.svg",
     "static/media/Coding.svg": "/PersonalPage/static/media/Coding.c40f8121dde0274c73778ac6a393302c.svg",
     "index.html": "/PersonalPage/index.html",
-    "main.516f1b3d.css.map": "/PersonalPage/static/css/main.516f1b3d.css.map",
-    "main.3ca906bc.js.map": "/PersonalPage/static/js/main.3ca906bc.js.map"
+    "main.5927067d.css.map": "/PersonalPage/static/css/main.5927067d.css.map",
+    "main.fee6a322.js.map": "/PersonalPage/static/js/main.fee6a322.js.map"
   },
   "entrypoints": [
-    "static/css/main.516f1b3d.css",
-    "static/js/main.3ca906bc.js"
+    "static/css/main.5927067d.css",
+    "static/js/main.fee6a322.js"
   ]
 }

@@ -40,7 +40,7 @@ export default function Home() {
 						</span>
 					</div>
 					<div className="home-details-buttons">
-						<a href="Resume.pdf" download="Suvab's Resume.pdf">
+						<a href="Suvab Resume 2023.pdf" download="Suvab's Resume.pdf" type="application/pdf" >
 							<button className="btn primary-button">
 								{" "}
 								RESUME

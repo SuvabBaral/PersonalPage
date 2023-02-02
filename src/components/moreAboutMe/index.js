@@ -5,7 +5,7 @@ import Education from "../education";
 import { useSelector } from "react-redux";
 import TravelPops from "../travelPops";
 import PictureModal from "../pictureModal";
-import { useTransition, animated} from "react-spring";
+import { useTransition, animated} from "@react-spring/web";
 
 export default function MoreAboutMe() {
 	const showEducation = useSelector((state) => state.about.showEducation);

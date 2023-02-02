@@ -37,12 +37,12 @@ const KL_IMAGES_NAME = [
 	{ picture: "BatuCave.jpeg", text: "Batu Caves" },
 ];
 const MARDI_IMAGES_NAME = [
-	{ picture: "Trial.jpeg", text: "Forest Camp Trial" },
+	{ picture: "Trail.jpeg", text: "Forest Camp Trail" },
 	{ picture: "Dhaulagiri.jpeg", text: "Deurali" },
-	{ picture: "Trial3.jpeg", text: "Badal Dada Trial" },
-	{ picture: "Trial4.jpeg", text: "Badal Dada Trial" },
+	{ picture: "Trail3.jpeg", text: "Badal Dada Trail" },
+	{ picture: "Trail4.jpeg", text: "Badal Dada Trail" },
 	{ picture: "Aboveclouds.jpeg", text: "Badal Dada" },
-	{ picture: "Trial2.jpeg", text: "High Camp Trial" },
+	{ picture: "Trail2.jpeg", text: "High Camp Trail" },
 	{ picture: "Machhapuchre.jpeg", text: "Mardi View Point" },
 	{ picture: "NightView.jpeg", text: "Midnight view from High Camp" },
 ];

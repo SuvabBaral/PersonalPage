@@ -40,27 +40,27 @@ export default function MoreAboutMe() {
 							travelTransition((style, showingTravel) => showingTravel
 							? <animated.div style={style} className="about-me-travel-container">
 										<TravelPops
-											thumbnailImage={require("../../assets/pictures/Mardi/Machhapuchre.jpeg")}
+											thumbnailImage={require("../../assets/pictures/Pops/Machhapuchre.jpg")}
 											text={"Mardi Himal Trek"}
 											destination={"Mardi"}
 										/>
 										<TravelPops
-											thumbnailImage={require("../../assets/pictures/KL/TwinTower.jpeg")}
+											thumbnailImage={require("../../assets/pictures/Pops/TwinTower.jpg")}
 											text={"Kuala Lampur"}
 											destination={"KL"}
 										/>
 										<TravelPops
-											thumbnailImage={require("../../assets/pictures/ElNido/Pappaya Beach.jpeg")}
+											thumbnailImage={require("../../assets/pictures/Pops/Pappaya Beach.jpg")}
 											text={"El Nido"}
 											destination={"ElNido"}
 										/>
 										<TravelPops
-											thumbnailImage={require("../../assets/pictures/Bali/Bali.jpeg")}
+											thumbnailImage={require("../../assets/pictures/Pops/Bali.jpg")}
 											text={"Bali"}
 											destination={"Bali"}
 										/>
 										<TravelPops
-											thumbnailImage={require("../../assets/pictures/Goa/Vagator.jpeg")}
+											thumbnailImage={require("../../assets/pictures/Pops/Vagator.jpg")}
 											text={"Goa"}
 											destination={"Goa"}
 										/>

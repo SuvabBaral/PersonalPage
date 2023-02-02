@@ -45,17 +45,17 @@ export default function MoreAboutMe() {
 											destination={"Mardi"}
 										/>
 										<TravelPops
-											thumbnailImage={require("../../assets/pictures/KL/TwinTower.jpg")}
+											thumbnailImage={require("../../assets/pictures/KL/TwinTower.jpeg")}
 											text={"Kuala Lampur"}
 											destination={"KL"}
 										/>
 										<TravelPops
-											thumbnailImage={require("../../assets/pictures/ElNido/Pappaya Beach.jpg")}
+											thumbnailImage={require("../../assets/pictures/ElNido/Pappaya Beach.jpeg")}
 											text={"El Nido"}
 											destination={"ElNido"}
 										/>
 										<TravelPops
-											thumbnailImage={require("../../assets/pictures/Bali/Bali.jpg")}
+											thumbnailImage={require("../../assets/pictures/Bali/Bali.jpeg")}
 											text={"Bali"}
 											destination={"Bali"}
 										/>

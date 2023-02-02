@@ -127,5 +127,10 @@
         font-size: 13px;
     }
 }
+@media screen and (max-width: 375px) {
+    .picture-modal-container {
+        max-width: 315px;
+    }
+}
 
 

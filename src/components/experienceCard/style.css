@@ -88,3 +88,12 @@
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .card-container {
+        width: 280px;
+    }
+    .card-image-curved-shape {
+        margin-top: -18px;
+    }
+}

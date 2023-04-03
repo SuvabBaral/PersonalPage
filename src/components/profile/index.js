@@ -15,10 +15,10 @@ import { ReactComponent as CodingSVG} from "../../assets/svg/Coding.svg";
 
 
 const rentlyExperience = [
-	'Microservices | Serverless development.',
+	`${new Date().getFullYear() - 2020}+ years experience in Node.js and React-Native.`,
+	'Microservices | REST API | Serverless | BLE Library Development.',
 	'Data processing and analytics from IoT devices.',
-	'BLE Library for smart devices.',
-	'AWS Lambda| Cognito | DynamoDB | EC2 | S3 | SQS.',
+	'AWS Lambda | Cognito | DynamoDB | EC2 | S3 | SQS.',
 ];
 const virtusaExperience = [
 	'Angular.js training and development.',

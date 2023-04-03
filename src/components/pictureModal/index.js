@@ -6,21 +6,21 @@ import {RiArrowRightSLine, RiArrowLeftSLine } from "react-icons/ri";
 import {RxCross2} from "react-icons/rx";
 
 const BALI_IMAGES_NAME = [
-	{ picture: 'Bali.jpg', text: "" },
-	{ picture: "BaliGate.jpg", text: "Lempuyang" },
-	{ picture: "Bali2.jpg", text: "" },
-	{ picture: "Finns.jpg", text: "Finns Beach Club" },
-	{ picture: "Legion.jpg", text: "" },
-	{ picture: "Uluwatu.jpg", text: "Uluwatu"},
+	{ picture: 'Bali.jpeg', text: "" },
+	{ picture: "BaliGate.jpeg", text: "Lempuyang" },
+	{ picture: "Bali2.jpeg", text: "" },
+	{ picture: "Finns.jpeg", text: "Finns Beach Club" },
+	{ picture: "Legion.jpeg", text: "" },
+	{ picture: "Uluwatu.jpeg", text: "Uluwatu"},
 ];
 const ELNIDO_IMAGES_NAME = [
-	{ picture: 'Pappaya Beach.jpg', text: "Pappaya Beach" },
-	{ picture: 'Pappaya2.jpg', text: "" },
-	{ picture: 'wayToSLagoon.jpg', text: "Way to Secret Lagoon" },
-	{ picture: 'SecreetLagoonFam.jpg', text: "Secret Lagoon" },
-	{ picture: "LasCabanas.jpg", text: "Las Cabanas" },
-	{ picture: "LasCabanas2.jpg", text: "" },
-	{ picture: "LittleVenice.jpg", text: "Little Venis Manila" },
+	{ picture: 'Pappaya Beach.jpeg', text: "Pappaya Beach" },
+	{ picture: 'Pappaya2.jpeg', text: "" },
+	{ picture: 'wayToSLagoon.jpeg', text: "Way to Secret Lagoon" },
+	{ picture: 'SecretLagoonFam.jpeg', text: "Secret Lagoon" },
+	{ picture: "LasCabanas.jpeg", text: "Las Cabanas" },
+	{ picture: "LasCabanas2.jpeg", text: "" },
+	{ picture: "LittleVenice.jpeg", text: "Little Venis Manila" },
 ];
 const GOA_IMAGES_NAME = [
 	{ picture: "Calungute.jpeg", text: "Calungute" },
@@ -30,19 +30,19 @@ const GOA_IMAGES_NAME = [
 	{ picture: "Anjuna.jpeg", text: "Anjuna Beach" },
 ];
 const KL_IMAGES_NAME = [
-	{ picture: "TwinTower.jpg", text: "Twin Tower" },
-	{ picture: "Petronas.jpg", text: "Petronas Shopping Center" },
-	{ picture: "Memorial.jpg", text: "National Monument" },
-	{ picture: "BukitBintang.jpg", text: "Bukit Bintang" },
-	{ picture: "BatuCave.jpg", text: "Batu Caves" },
+	{ picture: "TwinTower.jpeg", text: "Twin Tower" },
+	{ picture: "Petronas.jpeg", text: "Petronas Shopping Center" },
+	{ picture: "Memorial.jpeg", text: "National Monument" },
+	{ picture: "BukitBintang.jpeg", text: "Bukit Bintang" },
+	{ picture: "BatuCave.jpeg", text: "Batu Caves" },
 ];
 const MARDI_IMAGES_NAME = [
-	{ picture: "Trial.jpeg", text: "Forest Camp Trial" },
+	{ picture: "Trail.jpeg", text: "Forest Camp Trail" },
 	{ picture: "Dhaulagiri.jpeg", text: "Deurali" },
-	{ picture: "Trial3.jpeg", text: "Badal Dada Trial" },
-	{ picture: "Trial4.jpeg", text: "Badal Dada Trial" },
+	{ picture: "Trail3.jpeg", text: "Badal Dada Trail" },
+	{ picture: "Trail4.jpeg", text: "Badal Dada Trail" },
 	{ picture: "Aboveclouds.jpeg", text: "Badal Dada" },
-	{ picture: "Trial2.jpeg", text: "High Camp Trial" },
+	{ picture: "Trail2.jpeg", text: "High Camp Trail" },
 	{ picture: "Machhapuchre.jpeg", text: "Mardi View Point" },
 	{ picture: "NightView.jpeg", text: "Midnight view from High Camp" },
 ];

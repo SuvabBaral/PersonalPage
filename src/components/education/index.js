@@ -5,7 +5,7 @@ function EducationListItem({ college, major, yearString, schoolUrl }) {
 	return (
 		<div className="education-list-item-container">
 			<div className="education-list-item-college-year-container">
-				<a href={schoolUrl}><li>{college}</li></a>
+				<a href={schoolUrl} target="_blank" rel="noreferrer"><li>{college}</li></a>
 				<div className="education-list-item-year">
 					<p>{yearString}</p>
 				</div>

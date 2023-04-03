@@ -34,3 +34,13 @@
         grid-template-columns: repeat(3, 150px);
     }
 }
+@media screen and (max-width: 420px) {
+    .about-me-travel-container {
+        grid-template-columns: repeat(2, 120px);
+    }
+}
+@media screen and (max-width: 375px) {
+    .about-me-travel-container {
+        grid-template-columns: repeat(2, 110px);
+    }
+}

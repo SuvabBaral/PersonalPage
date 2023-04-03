@@ -19,7 +19,6 @@ export const about = (state= defaultState, action) => {
 		case SHOW_TRAVEL:
 			return { ...state, showEducation: false, showGuitar: false, showTravel: true };
 		case SHOW_PICTURES:
-			console.log('here');
 			return { ...state, showPictures: true, destination: payload.destination };
 		case HIDE_PICTURES:
 			return {...state, showPictures: false, destination: '' };

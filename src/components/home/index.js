@@ -25,7 +25,6 @@ export default function Home() {
 								loop={Infinity}
 								steps={[
 									"Computer Engineer", 1800,
-									"Software Developer", 1800,
 									"Node.js | Express.js", 1800,
 									"PSQL | DynamoDB", 1800,
 									"React | Redux", 1800,

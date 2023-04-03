@@ -16,6 +16,7 @@ import { ReactComponent as CodingSVG} from "../../assets/svg/Coding.svg";
 
 const rentlyExperience = [
 	`${new Date().getFullYear() - 2020}+ years experience in Node.js and React-Native.`,
+	'Develop microservices and mobile applications that enable functional and data analytical use cases for smart home devices.',
 	'Microservices | REST API | Serverless | BLE Library Development.',
 	'Data processing and analytics from IoT devices.',
 	'AWS Lambda | Cognito | DynamoDB | EC2 | S3 | SQS.',

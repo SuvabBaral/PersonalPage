@@ -79,6 +79,12 @@
     background-color: var(--background_color);;
 }
 
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 @media screen and (max-width: 1110px) {
     .profile-container-divider {

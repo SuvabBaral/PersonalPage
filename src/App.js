@@ -8,10 +8,10 @@ import {ContactMe} from "./components/contactMe";
 function App() {
 	return (
 		<div className = 'portfolio'>
-			<Navbar/>
-			<Sidebar/>
+			{/*<Navbar/>*/}
+			{/*<Sidebar/>*/}
 			<Profile/>
-			<ContactMe/>
+			{/*<ContactMe/>*/}
 		</div>
 	)
 };

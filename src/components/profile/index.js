@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 import { BiMedal } from "react-icons/bi";
 import { IoMdSchool } from "react-icons/io";
@@ -12,6 +12,8 @@ import AchievementCard from "../achievementCard";
 import CurvedShape from "../curvedShape";
 import MoreAboutMe from "../moreAboutMe";
 import { ReactComponent as CodingSVG} from "../../assets/svg/Coding.svg";
+import axios from "axios";
+import JobCard from "../jobCard";
 
 
 const rentlyExperience = [
@@ -27,68 +29,54 @@ const virtusaExperience = [
 ];
 
 export default function Profile() {
+	const handleKeyDown = async (event) => {
+		console.log('hererer');
+		console.log(event.key);
+		console.log(event.target.value);
+		if (event.key === 'Enter') {
+			setIsLoading(true);
+			setJobs([]);
+			const response = await axios.get(`http://localhost:3001/scrape/jobs?search=${event.target.value}`);
+			setJobs(response.data.jobs);
+			setIsLoading(false);
+		}
+	};
+
+	const [isLoading, setIsLoading] =  useState(false);
+	const [jobs, setJobs] = useState([]);
 	return (
 		<div className="profile-container">
-			<Home/>
+			{/*<Home/>*/}
 			<div className="profile-container-divider">
 				<DottedLine/>
 			</div>
 			<div className="profile-experience-container">
 				<div className="experience-card-title-container">
-					<h2>Work Experience</h2>
+					<h2>Search your passion!</h2>
 					<hr className="experience-card-title-underline"/>
 				</div>
-				<div className="experience-card-container">
-					<ExperienceCard
-						image={"rentlySmartHome"}
-						imageAlternateTxt={"Rently Smart Home"}
-						body={rentlyExperience}
-						companyUrl={"www.use.rently.com"}
-					/>
-					<CodingSVG height={230} width={200}/>
-					<ExperienceCard
-						image={"virtusa"}
-						imageAlternateTxt={"Virtusa"}
-						body={virtusaExperience}
-						companyUrl={"www.virtusa.com"}
+				<div className = "searchBar">
+					<input
+						style = {{width:"20rem",background:"#F0F0F0", border:"none", padding:"0.5rem"}}
+						type="text"
+						placeholder="Search for a job"
+						onKeyDown = {handleKeyDown}
 					/>
 				</div>
+				{ (isLoading) ? <p style={{ alignItems: "center", justifyContent: 'center'}}> Loading... </p> : null }
+				{ (jobs.length > 0) ?
+					(jobs.map((job) => JobCard({
+							jobTitle: job.jobTitle,
+							companyName: job.companyName,
+							companyRating: job.companyRating,
+							companyLocation: job.companyLocation,
+							salary: job.salary,
+							source: job.source,
+						}))
+					)
+					: null
+				}
 			</div>
-			<div className="profile-experience-container-divider">
-				<DottedLine/>
-			</div>
-			<div className="profile-achievement-container">
-				<div className="profile-achievement-card-title-container">
-					<h2>Achievements</h2>
-					<hr className="profile-achievement-card-title-underline"/>
-				</div>
-				<div className="profile-achievement-card-container">
-					<AchievementCard
-						description={"Gold medallist for Bachelor of Computer Science and Engineering."}
-						icon={BiMedal}
-					/>
-					<AchievementCard
-						description={"Obtained full scholarship for Bachelor of Engineering from Embassy of India, Nepal."}
-						icon={IoMdSchool}
-					/>
-					<AchievementCard
-						description={"Highest grade point average for the 3rd year of undergraduate study."}
-						icon={GiPodiumWinner}
-					/>
-					<AchievementCard
-						description={"Undergraduate project awarded the best project in the department."}
-						icon={TbAward}
-					/>
-				</div>
-			</div>
-			<div className="profile-about-me-title">
-				<h2>More about me</h2>
-				<hr className="profile-about-me-title-underline"/>
-			</div>
-			<div className="profile-about-me-title-curved-shape">
-				<CurvedShape/>
-			</div>
-			<MoreAboutMe/>
 		</div>
 	)
 }

@@ -14,6 +14,8 @@ import MoreAboutMe from "../moreAboutMe";
 import { ReactComponent as CodingSVG} from "../../assets/svg/Coding.svg";
 import axios from "axios";
 import JobCard from "../jobCard";
+import Dropdown from 'react-dropdown';
+import 'react-dropdown/style.css';
 
 
 const rentlyExperience = [
@@ -28,6 +30,17 @@ const virtusaExperience = [
 	'2 months internship program',
 ];
 
+const interestOption = [
+	{
+		type: 'group', name: 'SPORTS', items: [
+			{ value: 'football', label: 'Football' },
+			{ value: 'cricket', label: 'Cricket' },
+			{ value: 'basketball', label: 'Basketball'},
+			{ value: 'volleyball', label: 'Volleyball' },
+		]
+	},
+]
+
 export default function Profile() {
 	const handleKeyDown = async (event) => {
 		console.log('hererer');
@@ -35,15 +48,22 @@ export default function Profile() {
 		console.log(event.target.value);
 		if (event.key === 'Enter') {
 			setIsLoading(true);
-			setJobs([]);
-			const response = await axios.get(`http://localhost:3001/scrape/jobs?search=${event.target.value}`);
+			setJobs();
+			const response = await axios.get(`http://localhost:3001/scrape/jobs?search=${event.target.value}&interest=${interest}`);
+			console.log('---------------');
+			console.log(response);
 			setJobs(response.data.jobs);
 			setIsLoading(false);
 		}
 	};
 
+	const selectInterestOption = (item) => {
+		setInterest(item.value);
+	}
+
+	const [interest, setInterest] = useState('Football');
 	const [isLoading, setIsLoading] =  useState(false);
-	const [jobs, setJobs] = useState([]);
+	const [jobs, setJobs] = useState();
 	return (
 		<div className="profile-container">
 			{/*<Home/>*/}
@@ -56,6 +76,11 @@ export default function Profile() {
 					<hr className="experience-card-title-underline"/>
 				</div>
 				<div className = "searchBar">
+					<Dropdown
+						options={interestOption} placeholder={'Define your passion'}
+						onChange={selectInterestOption}
+					/>
+					<h4>We help you reunite your passion to profession!</h4>
 					<input
 						style = {{width:"20rem",background:"#F0F0F0", border:"none", padding:"0.5rem"}}
 						type="text"
@@ -63,8 +88,9 @@ export default function Profile() {
 						onKeyDown = {handleKeyDown}
 					/>
 				</div>
+				<p>{ isLoading }</p>
 				{ (isLoading) ? <p style={{ alignItems: "center", justifyContent: 'center'}}> Loading... </p> : null }
-				{ (jobs.length > 0) ?
+				{ (!jobs) ? null : (jobs.length > 0) ?
 					(jobs.map((job) => JobCard({
 							jobTitle: job.jobTitle,
 							companyName: job.companyName,
@@ -72,9 +98,11 @@ export default function Profile() {
 							companyLocation: job.companyLocation,
 							salary: job.salary,
 							source: job.source,
+							jobLink: job.jobLink,
+							jobDescription: job.jobDescription,
 						}))
 					)
-					: null
+					: <p style={{ alignSelf: "center", justifySelf: 'center'}}> Sorry no job listing found </p>
 				}
 			</div>
 		</div>

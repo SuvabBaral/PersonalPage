@@ -30,7 +30,7 @@ export default function Education() {
 					college="Stony Brook University (SUNY), New York, USA"
 					major="M.S Computer Engineering"
 					yearString="2023-2025"
-					schoolUrl="https://www.srec.ac.in/"
+					schoolUrl="https://www.stonybrook.edu/"
 					schoolIcon="SBIcon.png"
 				/>
 				<EducationListItem

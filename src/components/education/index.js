@@ -24,7 +24,7 @@ function EducationListItem({ college, major, yearString, schoolUrl, schoolIcon }
 }
 export default function Education() {
 	return (
-		<div className="education-component-container">
+		<div className="education-component-container" id="education-component-container">
 			<div className="education-card-container">
 				<EducationListItem
 					college="Stony Brook University (SUNY), New York, USA"

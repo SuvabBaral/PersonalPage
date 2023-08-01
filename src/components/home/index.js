@@ -2,6 +2,7 @@ import React from "react";
 import Typical from "react-typical";
 import "./style.css";
 
+const StonyBrookURL = 'https://www.stonybrook.edu/ceas/';
 export default function Home() {
 	const scrollToView = () => {
 		const contactMe = document.getElementById("contact-me-container");
@@ -49,6 +50,14 @@ export default function Home() {
 						<button className="btn primary-button">
 							Connect
 						</button>
+						</a>
+					</div>
+					<div className = "home-details-masters-container">
+						<div className = "home-details-masters-text">
+							Currently pursuing <span className="highlighted-text-small"> M.S Computer Engineering </span> at
+						</div>
+						<a href={StonyBrookURL} target="_blank" rel="noreferrer">
+							<img src={require("../../assets/pictures/schools/StonyBrook.png")} alt={""}></img>
 						</a>
 					</div>
 				</div>

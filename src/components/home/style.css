@@ -69,6 +69,34 @@
     transition: .5s ease-out;
 }
 
+.home-details-masters-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+}
+.home-details-masters-container img {
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+    padding-left: 13px;
+}
+.home-details-masters-container img:hover {
+    transform: scale(1.30);
+    transition: .4s ease-in;
+    cursor: pointer;
+}
+.home-details-masters-text {
+    font-size: 16px;
+    font-family: "Poppins Light Italic";
+}
+.highlighted-text-small {
+    color: var(--highlighted-text-color);
+    font-family: "Poppins Regular";
+    font-size: 20px;
+    padding: 2px;
+}
+
 @media screen and (max-width: 1110px) { /* Ipad */
     .home-profile-picture {
         margin: 20px 0px 0 80px;
@@ -132,7 +160,7 @@
 @media screen and (max-width: 420px) {
     .home-profile-picture {
         height: 300px;
-        widgth: 280px;
+        width: 280px;
         margin-top: -50px;
     }
     .home-profile-picture-background {

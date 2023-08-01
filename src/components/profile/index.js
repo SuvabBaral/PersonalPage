@@ -15,16 +15,16 @@ import { ReactComponent as CodingSVG} from "../../assets/svg/Coding.svg";
 
 
 const rentlyExperience = [
-	`${new Date().getFullYear() - 2020}+ years experience in Node.js and React-Native.`,
+	`${new Date().getFullYear() - 2019} years of experience in Node.js and React-Native.`,
+	'Develop and maintain monthly recurring revenue sytem of Rently and support in automated billing integrations of new products.',
 	'Develop microservices and mobile applications that enable functional and data analytical use cases for smart home devices.',
-	'Microservices | REST API | Serverless | BLE Library Development.',
 	'Data processing and analytics from IoT devices.',
-	'AWS Lambda | Cognito | DynamoDB | EC2 | S3 | SQS.',
+	'Microservices | REST API | Serverless | BLE Library Development | AWS Lambda | Cognito | DynamoDB | EC2 | S3 | SQS. ',
 ];
 const virtusaExperience = [
 	'Angular.js training and development.',
 	'Remote error logging library for front-end applications.',
-	'2 months internship program',
+	'2 months internship program.',
 ];
 
 export default function Profile() {
@@ -65,7 +65,7 @@ export default function Profile() {
 				</div>
 				<div className="profile-achievement-card-container">
 					<AchievementCard
-						description={"Gold medallist for Bachelor of Computer Science and Engineering."}
+						description={"Gold medallist for Bachelor of Engineering - Computer Science and Engineering."}
 						icon={BiMedal}
 					/>
 					<AchievementCard

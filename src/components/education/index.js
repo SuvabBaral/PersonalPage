@@ -35,7 +35,7 @@ export default function Education() {
 				/>
 				<EducationListItem
 					college="Sri Ramakrishna Engineering College (Anna University), India"
-					major="Bachelor of Computer Science and Engineering"
+					major="B.E Computer Science and Engineering"
 					yearString="2016-2020"
 					schoolUrl="https://www.srec.ac.in/"
 					schoolIcon="SRECIcon.png"

@@ -22,12 +22,16 @@
     align-items: center;
     padding-top: 15px;
 }
+.education-list-item-college-year-container img {
+    height: 40px;
+    width: 40px;
+}
 .education-list-item-college-year-container a {
     text-decoration: none;
 }
 .education-list-item-college-year-container a:hover {
-    transform: scale(1.01);
-    transition: 0.16s ease-out;
+    transform: scale(1.02);
+    transition: 0.3s ease-out;
 }
 
 .education-list-item-college-year-container li {
@@ -41,7 +45,7 @@
     padding: 10px;
     margin-top: 10px;
     border-radius: 40px;
-    width: 105px;
+    width: 115px;
 }
 .education-list-item-year p {
     font-family: "Poppins Regular";
@@ -66,7 +70,7 @@
 }
 @media screen and (max-width: 910px) {
     .education-list-item-college-year-container a:hover {
-        transform: scale(1.01);
+        transform: scale(1.015);
         transition: 0.1s ease-in;
     }
     .education-list-item-college-year-container li {
@@ -79,7 +83,11 @@
         font-size: 14px;
     }
     .education-list-item-year {
-        width: 95px;
+        width: 98px;
+    }
+    .education-list-item-college-year-container img {
+        height: 30px;
+        width: 30px;
     }
 }
 @media screen and (max-width: 810px) {
@@ -94,7 +102,11 @@
         font-size: 10.5px;
     }
     .education-list-item-year {
-        width: 82px;
+        width: 85px;
+    }
+    .education-list-item-college-year-container img {
+        height: 25px;
+        width: 25px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -120,7 +132,11 @@
         width: 200px;
     }
     .education-list-item-year {
-        width: 62px;
+        width: 65px;
+    }
+    .education-list-item-college-year-container img {
+        height: 20px;
+        width: 20px;
     }
 }
 

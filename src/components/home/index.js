@@ -57,7 +57,7 @@ export default function Home() {
 							Currently pursuing <span className="highlighted-text-small"> M.S Computer Engineering </span> at
 						</div>
 						<a href={StonyBrookURL} target="_blank" rel="noreferrer">
-							<img src={require("../../assets/pictures/StonyBrook.png")} alt={""}></img>
+							<img src={require("../../assets/pictures/schools/StonyBrook.png")} alt={""}></img>
 						</a>
 					</div>
 				</div>

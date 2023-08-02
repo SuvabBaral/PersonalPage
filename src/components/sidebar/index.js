@@ -20,8 +20,8 @@ function Sidebar() {
 			<ul className= "sidebar__links">
 				<a href="https://github.com/SuvabBaral?tab=repositories" target="_blank"  rel="noreferrer"><li className="sidebar__link"><RxGithubLogo className="sidebar-icon" />Github</li></a>
 				<a href="https://np.linkedin.com/in/suvab-baral" target="_blank"  rel="noreferrer"><li className="sidebar__link"><RxLinkedinLogo className="sidebar-icon"/>LinkedIn</li></a>
+				<a onClick={() => scrollToView(educationContainer)}><li className="sidebar__link"><RxSpaceBetweenVertically className="sidebar-icon"/>Education</li></a>
 				<a onClick={scrollToView}><li className="sidebar__link"><RxEnvelopeClosed className="sidebar-icon"/>Connect</li></a>
-				<a onClick={() => scrollToView(educationContainer)}><li className="navbar-link"><RxSpaceBetweenVertically className="navbar-icon"/>Education</li></a>
 			</ul>
 			<div className = "sidebar__cancel">
 				<RxCross2 onClick={cancelSidebar}/>

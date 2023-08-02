@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PersonalPage/static/css/main.e74bb3a0.css",
-    "main.js": "/PersonalPage/static/js/main.2d83bca3.js",
+    "main.css": "/PersonalPage/static/css/main.dee119b6.css",
+    "main.js": "/PersonalPage/static/js/main.38859578.js",
     "static/media/Trail.jpeg": "/PersonalPage/static/media/Trail.0962c737c5a2e735ad79.jpeg",
     "static/media/Trail2.jpeg": "/PersonalPage/static/media/Trail2.117834dec9828982df86.jpeg",
     "static/media/wayToSLagoon.jpeg": "/PersonalPage/static/media/wayToSLagoon.04efc2c7758715b2daa9.jpeg",
@@ -53,11 +53,11 @@
     "static/media/Vagator.jpg": "/PersonalPage/static/media/Vagator.90f4263383692fd072bd.jpg",
     "static/media/Coding.svg": "/PersonalPage/static/media/Coding.c40f8121dde0274c73778ac6a393302c.svg",
     "index.html": "/PersonalPage/index.html",
-    "main.e74bb3a0.css.map": "/PersonalPage/static/css/main.e74bb3a0.css.map",
-    "main.2d83bca3.js.map": "/PersonalPage/static/js/main.2d83bca3.js.map"
+    "main.dee119b6.css.map": "/PersonalPage/static/css/main.dee119b6.css.map",
+    "main.38859578.js.map": "/PersonalPage/static/js/main.38859578.js.map"
   },
   "entrypoints": [
-    "static/css/main.e74bb3a0.css",
-    "static/js/main.2d83bca3.js"
+    "static/css/main.dee119b6.css",
+    "static/js/main.38859578.js"
   ]
 }

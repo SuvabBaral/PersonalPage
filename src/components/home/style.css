@@ -91,7 +91,7 @@
     font-family: "Poppins Light Italic";
 }
 .highlighted-text-small {
-    color: var(--highlighted-text-color);
+    color: #D52027;
     font-family: "Poppins Regular";
     font-size: 20px;
     padding: 2px;

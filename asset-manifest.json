@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PersonalPage/static/css/main.7364bab9.css",
-    "main.js": "/PersonalPage/static/js/main.48347d93.js",
+    "main.css": "/PersonalPage/static/css/main.ae508dbe.css",
+    "main.js": "/PersonalPage/static/js/main.8805149c.js",
     "static/media/Trail.jpeg": "/PersonalPage/static/media/Trail.0962c737c5a2e735ad79.jpeg",
     "static/media/Trail2.jpeg": "/PersonalPage/static/media/Trail2.117834dec9828982df86.jpeg",
     "static/media/wayToSLagoon.jpeg": "/PersonalPage/static/media/wayToSLagoon.04efc2c7758715b2daa9.jpeg",
@@ -42,6 +42,7 @@
     "static/media/Aboveclouds.jpeg": "/PersonalPage/static/media/Aboveclouds.31b6ce9a2b465c953eb4.jpeg",
     "static/media/Lighthouse.jpeg": "/PersonalPage/static/media/Lighthouse.2f970b79cf4a8844bbed.jpeg",
     "static/media/Anjuna.jpeg": "/PersonalPage/static/media/Anjuna.73a418f9c6a831c0577b.jpeg",
+    "static/media/rfSUNY.png": "/PersonalPage/static/media/rfSUNY.604eedbe2ae374ff1c7b.png",
     "static/media/GIHEIcon.png": "/PersonalPage/static/media/GIHEIcon.30d2fa15ebe0f787dbd2.png",
     "static/media/Machhapuchre.jpg": "/PersonalPage/static/media/Machhapuchre.9abb2a7aa6b50d604539.jpg",
     "static/media/virtusa.png": "/PersonalPage/static/media/virtusa.892702e680e152a67e96.png",
@@ -52,12 +53,13 @@
     "static/media/ContactMeSVG.svg": "/PersonalPage/static/media/ContactMeSVG.d7d6bfe225a15d6e3e20e1bcd4b1ecaf.svg",
     "static/media/Vagator.jpg": "/PersonalPage/static/media/Vagator.90f4263383692fd072bd.jpg",
     "static/media/Coding.svg": "/PersonalPage/static/media/Coding.c40f8121dde0274c73778ac6a393302c.svg",
+    "static/media/App.svg": "/PersonalPage/static/media/App.9f68f0cd09aaf6de2733b82cb1913182.svg",
     "index.html": "/PersonalPage/index.html",
-    "main.7364bab9.css.map": "/PersonalPage/static/css/main.7364bab9.css.map",
-    "main.48347d93.js.map": "/PersonalPage/static/js/main.48347d93.js.map"
+    "main.ae508dbe.css.map": "/PersonalPage/static/css/main.ae508dbe.css.map",
+    "main.8805149c.js.map": "/PersonalPage/static/js/main.8805149c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7364bab9.css",
-    "static/js/main.48347d93.js"
+    "static/css/main.ae508dbe.css",
+    "static/js/main.8805149c.js"
   ]
 }

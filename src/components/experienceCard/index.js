@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import CurvedShape from "../curvedShape";
 
-export default function ExperienceCard({ title, image, body, imageAlternateTxt, companyUrl }) {
+export default function ExperienceCard({ title, image, body, imageAlternateTxt, companyUrl, position, tenure }) {
 	const workingSections = body.map((item) => <li>{item}</li>)
 
 	return (
@@ -13,6 +13,10 @@ export default function ExperienceCard({ title, image, body, imageAlternateTxt, 
 			<div className="card-body-container">
 				<div className="card-image-curved-shape">
 					<CurvedShape/>
+				</div>
+				<div >
+					<h3 className="card-title">{position}</h3>
+					<h3 className="card-title">{tenure}</h3>
 				</div>
 				<div className="card-description">
 					{ workingSections }

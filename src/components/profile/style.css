@@ -1,9 +1,10 @@
 .profile-container-divider {
-    width: 100%;
+    width: 95%;
     margin-top: -65px;
 }
 .profile-experience-container-divider {
     padding: 15px;
+    width: 95%;
 }
 
 .experience-card-container {

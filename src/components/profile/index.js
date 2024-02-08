@@ -22,15 +22,21 @@ const rentlyExperience = [
 	'Data processing and analytics from IoT devices.',
 	'Microservices | REST API | Serverless | BLE Library Development | AWS Lambda | Cognito | DynamoDB | EC2 | S3 | SQS. ',
 ];
+const rentlyPosition = "Associate Technical Lead";
+const rentlyTenure = "09/2019 - 08/2023";
 const virtusaExperience = [
 	'Angular.js training and development.',
 	'Remote error logging library for front-end applications.',
 	'2 months internship program.',
 ];
+const virtusaPosition = "Software Developer Intern";
+const virtusaTenure = "05/2019 - 08/2019"
 const rfExperience = [
 	"Build a scalable and secure infrastructure for storing and analyzing data collected from Ultra-Wideband(UWB) sensors enabling detailed insight into a patient's activity, ultimately aiding in the early detection of symptoms that may go unnoticed in hospital visits",
 	"Developed a user-friendly app guiding elderly patients through daily activities, collecting ground truth data for model training using UWB signals, contributing to the identification of daily activities."
 ];
+const rfPosition = "Graduate Research Assistant";
+const rfTenure = "01/2024 - Present"
 
 export default function Profile() {
 	return (
@@ -50,6 +56,8 @@ export default function Profile() {
 						imageAlternateTxt={"RF SUNY"}
 						body={rfExperience}
 						companyUrl={"www.rfsuny.org"}
+						position={rfPosition}
+						tenure={rfTenure}
 					/>
 					<AppSVG height={230} width={200}/>
 					<ExperienceCard
@@ -57,6 +65,8 @@ export default function Profile() {
 						imageAlternateTxt={"Rently Smart Home"}
 						body={rentlyExperience}
 						companyUrl={"www.use.rently.com"}
+						position={rentlyPosition}
+						tenure={rentlyTenure}
 					/>
 					<CodingSVG height={230} width={200}/>
 					<ExperienceCard
@@ -64,6 +74,8 @@ export default function Profile() {
 						imageAlternateTxt={"Virtusa"}
 						body={virtusaExperience}
 						companyUrl={"www.virtusa.com"}
+						position={virtusaPosition}
+						tenure={virtusaTenure}
 					/>
 				</div>
 			</div>

@@ -12,6 +12,7 @@ import AchievementCard from "../achievementCard";
 import CurvedShape from "../curvedShape";
 import MoreAboutMe from "../moreAboutMe";
 import { ReactComponent as CodingSVG} from "../../assets/svg/Coding.svg";
+import { ReactComponent as AppSVG }  from "../../assets/svg/App.svg";
 
 
 const rentlyExperience = [
@@ -25,6 +26,10 @@ const virtusaExperience = [
 	'Angular.js training and development.',
 	'Remote error logging library for front-end applications.',
 	'2 months internship program.',
+];
+const rfExperience = [
+	"Build a scalable and secure infrastructure for storing and analyzing data collected from Ultra-Wideband(UWB) sensors enabling detailed insight into a patient's activity, ultimately aiding in the early detection of symptoms that may go unnoticed in hospital visits",
+	"Developed a user-friendly app guiding elderly patients through daily activities, collecting ground truth data for model training using UWB signals, contributing to the identification of daily activities."
 ];
 
 export default function Profile() {
@@ -40,6 +45,13 @@ export default function Profile() {
 					<hr className="experience-card-title-underline"/>
 				</div>
 				<div className="experience-card-container">
+					<ExperienceCard
+						image={"rfSUNY"}
+						imageAlternateTxt={"RF SUNY"}
+						body={rfExperience}
+						companyUrl={"www.rfsuny.org"}
+					/>
+					<AppSVG height={230} width={200}/>
 					<ExperienceCard
 						image={"rentlySmartHome"}
 						imageAlternateTxt={"Rently Smart Home"}

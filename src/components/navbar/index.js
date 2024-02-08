@@ -22,7 +22,7 @@ function Navbar() {
 		<div className = "navbar">
 			<div className= "navbar-wrapper">
 				<ul className= "navbar-links">
-					<a href="https://github.com/SuvabBaral?tab=repositories" target="_blank" rel="noreferrer"><li className="navbar-link"><RxGithubLogo className="navbar-icon" />Github</li></a>
+					<a href="https://github.com/SuvabBaral" target="_blank" rel="noreferrer"><li className="navbar-link"><RxGithubLogo className="navbar-icon" />Github</li></a>
 					<a href="https://np.linkedin.com/in/suvab-baral" target="_blank" rel="noreferrer"><li className="navbar-link"><RxLinkedinLogo className="navbar-icon"/>LinkedIn</li></a>
 					{/* <a onClick={() => scrollToView(contactMeContainer)}><li className="navbar-link"><RxEnvelopeClosed className="navbar-icon"/>Connect</li></a> */}
 					<a onClick={() => scrollToView(educationContainer)}><li className="navbar-link"><RxSpaceBetweenVertically className="navbar-icon"/>Education</li></a>

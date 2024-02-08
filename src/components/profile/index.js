@@ -32,7 +32,7 @@ const virtusaExperience = [
 const virtusaPosition = "Software Developer Intern";
 const virtusaTenure = "05/2019 - 08/2019"
 const rfExperience = [
-	"Build a scalable and secure infrastructure for storing and analyzing data collected from Ultra-Wideband(UWB) sensors enabling detailed insight into a patient's activity, ultimately aiding in the early detection of symptoms that may go unnoticed in hospital visits",
+	"Build a scalable and secure infrastructure for storing and analyzing data collected from Ultra-Wideband(UWB) sensors enabling detailed insight into a patient's activity, ultimately aiding in the early detection of symptoms that may go unnoticed in hospital visits.",
 	"Developed a user-friendly app guiding elderly patients through daily activities, collecting ground truth data for model training using UWB signals, contributing to the identification of daily activities."
 ];
 const rfPosition = "Graduate Research Assistant";

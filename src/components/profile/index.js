@@ -16,7 +16,7 @@ import { ReactComponent as AppSVG }  from "../../assets/svg/App.svg";
 
 
 const rentlyExperience = [
-	`${new Date().getFullYear() - 2019} years of experience in Node.js and React-Native.`,
+	`${2023 - 2019}+ years of experience in Node.js and React-Native.`,
 	'Develop and maintain monthly recurring revenue sytem of Rently and support in automated billing integrations of new products.',
 	'Develop microservices and mobile applications that enable functional and data analytical use cases for smart home devices.',
 	'Data processing and analytics from IoT devices.',

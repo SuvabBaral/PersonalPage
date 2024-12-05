@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PersonalPage/static/css/main.25b65dbf.css",
-    "main.js": "/PersonalPage/static/js/main.64475be6.js",
+    "main.css": "/PersonalPage/static/css/main.ac8be5c6.css",
+    "main.js": "/PersonalPage/static/js/main.fb84a97e.js",
     "static/media/Trail.jpeg": "/PersonalPage/static/media/Trail.0962c737c5a2e735ad79.jpeg",
     "static/media/Trail2.jpeg": "/PersonalPage/static/media/Trail2.117834dec9828982df86.jpeg",
     "static/media/wayToSLagoon.jpeg": "/PersonalPage/static/media/wayToSLagoon.04efc2c7758715b2daa9.jpeg",
@@ -28,6 +28,7 @@
     "static/media/BatuCave.jpeg": "/PersonalPage/static/media/BatuCave.4cd33516d254566ce23c.jpeg",
     "static/media/Finns.jpeg": "/PersonalPage/static/media/Finns.cd4ae8fae0b250d6b866.jpeg",
     "static/media/Vagator.jpeg": "/PersonalPage/static/media/Vagator.4c08407a09fdf99f1a4d.jpeg",
+    "static/media/landingPoint.png": "/PersonalPage/static/media/landingPoint.52f6eeb5a7944d719772.png",
     "static/media/Vagator2.jpeg": "/PersonalPage/static/media/Vagator2.7099d03d2b74b1ae57a3.jpeg",
     "static/media/Bali.jpeg": "/PersonalPage/static/media/Bali.b9cdb35445dac87c80e9.jpeg",
     "static/media/Trail3.jpeg": "/PersonalPage/static/media/Trail3.c137c18af002fd25bda5.jpeg",
@@ -35,6 +36,7 @@
     "static/media/LasCabanas2.jpeg": "/PersonalPage/static/media/LasCabanas2.6c3f0a2c4b4e458870f9.jpeg",
     "static/media/Bali2.jpeg": "/PersonalPage/static/media/Bali2.3e2f48c7922349bf564c.jpeg",
     "static/media/rentlySmartHome.png": "/PersonalPage/static/media/rentlySmartHome.5998b0713eb83c062bf0.png",
+    "static/media/trimble.png": "/PersonalPage/static/media/trimble.e15184987cbf5b505958.png",
     "static/media/Pappaya2.jpeg": "/PersonalPage/static/media/Pappaya2.18abcfa10998efc5aaad.jpeg",
     "static/media/NightView.jpeg": "/PersonalPage/static/media/NightView.ff10b97372e17731778c.jpeg",
     "static/media/Trail4.jpeg": "/PersonalPage/static/media/Trail4.329a08771715509a8440.jpeg",
@@ -55,11 +57,11 @@
     "static/media/Coding.svg": "/PersonalPage/static/media/Coding.c40f8121dde0274c73778ac6a393302c.svg",
     "static/media/App.svg": "/PersonalPage/static/media/App.9f68f0cd09aaf6de2733b82cb1913182.svg",
     "index.html": "/PersonalPage/index.html",
-    "main.25b65dbf.css.map": "/PersonalPage/static/css/main.25b65dbf.css.map",
-    "main.64475be6.js.map": "/PersonalPage/static/js/main.64475be6.js.map"
+    "main.ac8be5c6.css.map": "/PersonalPage/static/css/main.ac8be5c6.css.map",
+    "main.fb84a97e.js.map": "/PersonalPage/static/js/main.fb84a97e.js.map"
   },
   "entrypoints": [
-    "static/css/main.25b65dbf.css",
-    "static/js/main.64475be6.js"
+    "static/css/main.ac8be5c6.css",
+    "static/js/main.fb84a97e.js"
   ]
 }

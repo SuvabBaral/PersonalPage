@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PersonalPage/static/css/main.b66bf353.css",
-    "main.js": "/PersonalPage/static/js/main.a79a5296.js",
+    "main.css": "/PersonalPage/static/css/main.f1cab7a1.css",
+    "main.js": "/PersonalPage/static/js/main.059b7609.js",
     "static/media/Trail.jpeg": "/PersonalPage/static/media/Trail.0962c737c5a2e735ad79.jpeg",
     "static/media/Trail2.jpeg": "/PersonalPage/static/media/Trail2.117834dec9828982df86.jpeg",
     "static/media/wayToSLagoon.jpeg": "/PersonalPage/static/media/wayToSLagoon.04efc2c7758715b2daa9.jpeg",
@@ -59,7 +59,7 @@
     "index.html": "/PersonalPage/index.html"
   },
   "entrypoints": [
-    "static/css/main.b66bf353.css",
-    "static/js/main.a79a5296.js"
+    "static/css/main.f1cab7a1.css",
+    "static/js/main.059b7609.js"
   ]
 }

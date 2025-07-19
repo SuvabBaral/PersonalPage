@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PersonalPage/static/css/main.f1cab7a1.css",
-    "main.js": "/PersonalPage/static/js/main.f960664a.js",
+    "main.js": "/PersonalPage/static/js/main.18d51332.js",
     "static/media/Trail.jpeg": "/PersonalPage/static/media/Trail.0962c737c5a2e735ad79.jpeg",
     "static/media/Trail2.jpeg": "/PersonalPage/static/media/Trail2.117834dec9828982df86.jpeg",
     "static/media/wayToSLagoon.jpeg": "/PersonalPage/static/media/wayToSLagoon.04efc2c7758715b2daa9.jpeg",
@@ -60,6 +60,6 @@
   },
   "entrypoints": [
     "static/css/main.f1cab7a1.css",
-    "static/js/main.f960664a.js"
+    "static/js/main.18d51332.js"
   ]
 }
